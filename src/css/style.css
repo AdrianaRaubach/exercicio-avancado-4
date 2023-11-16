@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+*{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+
+}
+.container{
+    display: flex;
+    margin-top: 129px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.obras-de-arte{
+    justify-content: center;
+    
+}
+
+.pinturas{
+    width: 335px;
+
+}
+.imagens-nomes{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    position: relative;
+}
+.infos{
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 26px;
+}
+.infos .nome-obra{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.infos .autor-obra{
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 5px;
+}
